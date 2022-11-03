@@ -12,7 +12,7 @@ function solution(rsp) {
         0: 5,
         5: 2
     };
-    var answer = [...rsp].map(element1 => arr[element1]).join("");
+    let answer = [...rsp].map(element1 => arr[element1]).join("");
     return answer;
 }
 
